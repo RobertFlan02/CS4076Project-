@@ -10,8 +10,9 @@ MainWindow::MainWindow(QWidget *parent)
 
 
 {
+    this->setFixedSize(QSize(1050,620));
     ui->setupUi(this);
-    resize(1050,620);
+
 }
 
 MainWindow::~MainWindow()

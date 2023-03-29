@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>waffles</class>
+ <widget class="QDialog" name="waffles">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>751</width>
+    <height>479</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>-50</y>
+     <width>561</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ingredients
+1 egg
+225g self-raising flour
+1 tbsp golden caster sugar (optional)
+250ml milk
+50g butter, melted and cooled
+½ tsp vanilla extract (optional)
+1 tbsp sunflower or vegetable oil
+maple syrup and icing sugar, to serve (optional)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>551</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>STEP 1
+Crack the egg (for fluffier waffles, use only the yolk at this stage) into a large bowl,</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>240</y>
+     <width>701</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>tip in the flour and a generous pinch of salt. Add the sugar, if using</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>260</y>
+     <width>721</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>then gradually whisk in the milk followed by the melted butter until smooth.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>280</y>
+     <width>721</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Whisk in the vanilla, if using. If you've chosen to make fluffier waffles, whisk the egg white to soft peaks,</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>300</y>
+     <width>701</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>then gently fold this into the batter. Alternatively,</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>320</y>
+     <width>641</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>STEP 2
+Heat a waffle maker following the manufacturer's instructions, brush with a little of the oil,</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>370</y>
+     <width>591</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>then ladle in enough batter to just cover the surface.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>390</y>
+     <width>731</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cook following the manufacturer's instructions (usually 5-6 mins) until the waffles are golden brown and crisp.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-1</y>
+     <width>781</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#label_10{
+border-image: url(:/QTImages/background3.jpg);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_10</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_9</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>fry</class>
+ <widget class="QDialog" name="fry">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>815</width>
+    <height>481</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ingredients</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>801</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Vegetable, sunflower, or olive oil, for frying
+Butter, for frying and spreading on toast
+1-2 medium-size pork sausages
+1-2 slices (rashers) thick-cut, dry-cured, smoked or unsmoked, Canadian (back) or regular (streaky) bacon, rind removed
+2 to 3 slices of black and/or white pudding
+2 ounces (50g) button mushrooms, sliced, or 1 large flat mushroom, stem removed
+Salt and freshly ground black pepper
+1 ripe tomato, halved</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>150</y>
+     <width>791</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>220</y>
+     <width>63</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Step 1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>240</y>
+     <width>1291</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Heat 1 tablespoon oil and 1 tablespoon butter in a large frying pan over a medium heat</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>260</y>
+     <width>761</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add the sausages and fry for 10 to 15 minutes, until golden and cooked through.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>280</y>
+     <width>631</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add the bacon and fry for 3 to 4 minutes on each side, until crisp and golden</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>300</y>
+     <width>681</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add the black and/or white pudding slices to the pan and fry for 2 to 3 minutes on each side</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>320</y>
+     <width>671</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Remove the sausages, bacon, and pudding slices from the pan and drain on paper towels</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>350</y>
+     <width>63</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Step 2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>370</y>
+     <width>831</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>370</y>
+     <width>511</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>To serve, arrange everything on a warm serving plate,</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>390</y>
+     <width>621</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>with the hot buttered toast on the side and with some tomato ketchup or relish.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>831</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#label_14{
+border-image: url(:/QTImages/background3.jpg);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_14</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_11</zorder>
+  <zorder>label_12</zorder>
+  <zorder>label_13</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

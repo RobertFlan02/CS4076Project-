@@ -10,21 +10,30 @@ CONFIG += c++17
 
 SOURCES += \
     dinner.cpp \
+    fry.cpp \
     lunch.cpp \
     main.cpp \
     mainwindow.cpp \
+    pancake.cpp \
+    waffles.cpp \
     wdg.cpp
 
 HEADERS += \
     dinner.h \
+    fry.h \
     lunch.h \
     mainwindow.h \
+    pancake.h \
+    waffles.h \
     wdg.h
 
 FORMS += \
     dinner.ui \
+    fry.ui \
     lunch.ui \
     mainwindow.ui \
+    pancake.ui \
+    waffles.ui \
     wdg.ui
 
 # Default rules for deployment.

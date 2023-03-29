@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>pancake</class>
+ <widget class="QDialog" name="pancake">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>941</width>
+    <height>516</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>-10</y>
+     <width>361</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ingredients
+1 large ripe banana (around 150g)
+2 tbsp golden caster sugar
+¼ tsp fine salt
+2 tbsp vegetable oil, plus extra for cooking
+120g self-raising flour
+½ tsp baking powder
+150ml oat, almond milk or soya milk
+syrup, sliced banana and berries, to serve (optional)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>781</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>STEP 1
+Mash the banana in a mixing bowl. Stir in the sugar, salt and oil. Add the flour and baking powder and mix thoroughly. Make a well in the centre and gradually whisk in the milk. The batter should be a thick, droppable consistency.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>250</y>
+     <width>731</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Make a well in the centre and gradually whisk in the milk. The batter should be a thick, droppable consistency.
+
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>270</y>
+     <width>781</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>STEP 2
+Heat a little oil in a frying pan over a medium heat. Add 2 tbsp of the batter to make American-style pancakes.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>320</y>
+     <width>871</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>You will be able to make about 4-5 at a time. Fry on each side for 2-3 mins until golden. Serve with syrup, sliced banana and berries, if you like.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="background3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-30</y>
+     <width>961</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#background3{
+border-image: url(:/QTImages/background3.jpg);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>background3</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

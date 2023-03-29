@@ -22,6 +22,12 @@ private slots:
 
     void on_radioButton_clicked();
 
+    void on_pancake_clicked();
+
+    void on_Gone_clicked();
+
+    void on_waffles_clicked();
+
 private:
     Ui::wdg *ui;
 };
