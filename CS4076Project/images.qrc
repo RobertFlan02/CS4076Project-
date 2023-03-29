@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>QTImages/download.jpg</file>
+        <file>QTImages/Dinner.jpg</file>
+        <file>QTImages/Lunch.jpg</file>
+        <file>QTImages/Breakfast.jpg</file>
+        <file>QTImages/Table.jpg</file>
+        <file>QTImages/pancake.jpg</file>
+    </qresource>
+</RCC>
