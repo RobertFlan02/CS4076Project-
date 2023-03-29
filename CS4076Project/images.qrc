@@ -11,5 +11,6 @@
         <file>QTImages/Background.jpg</file>
         <file>QTImages/pasta.jpg</file>
         <file>QTImages/porkchops.jpg</file>
+        <file>QTImages/background2.jpg</file>
     </qresource>
 </RCC>

@@ -94,6 +94,9 @@ border-image: url(:/QTImages/Table.jpg);
     <property name="text">
      <string/>
     </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
    </widget>
    <zorder>Table</zorder>
    <zorder>Breakfast</zorder>

@@ -115,6 +115,31 @@ border: rgb(0, 0, 0);
     <string>Check Calories</string>
    </property>
   </widget>
+  <widget class="QLabel" name="background2">
+   <property name="geometry">
+    <rect>
+     <x>-8</x>
+     <y>-1</y>
+     <width>1111</width>
+     <height>671</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#background2{
+border-image: url(:/QTImages/background2.jpg);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>background2</zorder>
+  <zorder>porkchops</zorder>
+  <zorder>pasta</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>checkBox</zorder>
+  <zorder>checkBox_2</zorder>
  </widget>
  <resources/>
  <connections/>
