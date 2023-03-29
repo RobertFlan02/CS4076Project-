@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "breakfast.h"
+#include "wdg.h"
 #include "lunch.h"
 #include "dinner.h"
 
@@ -46,4 +46,22 @@ void MainWindow::on_Dinner_clicked()
     dinner.setModal(true);
     dinner.exec();
 }
+
+
+void MainWindow::on_actionbreak_triggered()
+{
+    wdg wedigo;
+    wedigo.setModal(true);
+    wedigo.exec();
+}
+
+
+void MainWindow::on_actionOpen_triggered()
+{
+    Dinner dinner;
+    dinner.setModal(true);
+    dinner.exec();
+}
+
+
 

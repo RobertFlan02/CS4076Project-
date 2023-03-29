@@ -1,5 +1,5 @@
-#ifndef BREAKFAST_H
-#define BREAKFAST_H
+#ifndef WDG_H
+#define WDG_H
 
 #include <QDialog>
 
@@ -20,8 +20,10 @@ private slots:
 
     void on_pushButton_2_windowIconChanged(const QIcon &icon);
 
+    void on_radioButton_clicked();
+
 private:
     Ui::wdg *ui;
 };
 
-#endif // BREAKFAST_H
+#endif // WDG_H

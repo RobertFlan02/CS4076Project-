@@ -24,6 +24,10 @@ private slots:
 
     void on_Dinner_clicked();
 
+    void on_actionbreak_triggered();
+
+    void on_actionOpen_triggered();
+
 private:
     Ui::MainWindow *ui;
 };

@@ -7,5 +7,9 @@
         <file>QTImages/Table.jpg</file>
         <file>QTImages/pancake.jpg</file>
         <file>QTImages/fry.jpg</file>
+        <file>QTImages/Waffles.jpg</file>
+        <file>QTImages/Background.jpg</file>
+        <file>QTImages/pasta.jpg</file>
+        <file>QTImages/porkchops.jpg</file>
     </qresource>
 </RCC>

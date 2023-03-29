@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>Dinner</class>
  <widget class="QDialog" name="Dinner">
@@ -5,13 +6,115 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>1033</width>
+    <height>490</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <widget class="QPushButton" name="porkchops">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>80</y>
+     <width>351</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#porkchops{
+	
+	font: 700 18pt &quot;Segoe UI&quot;;
+	text-decoration: underline;
+    color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-image: url(:/QTImages/porkchops.jpg);
+background: rgb(0, 0, 0);
+border: rgb(0, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>Oven Baked Porkchops</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pasta">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>80</y>
+     <width>331</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pasta{
+	
+	font: 700 18pt &quot;Segoe UI&quot;;
+	text-decoration: underline;
+    color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-image: url(:/QTImages/pasta.jpg);
+background: rgb(0, 0, 0);
+border: rgb(0, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>Chicken Pasta</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>430</y>
+     <width>63</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>805 kcal</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>430</y>
+     <width>63</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>575 kcal</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>410</y>
+     <width>131</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Check Calories</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_2">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>410</y>
+     <width>131</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Check Calories</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>

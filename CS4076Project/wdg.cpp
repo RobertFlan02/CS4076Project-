@@ -1,4 +1,4 @@
-#include "breakfast.h"
+#include "wdg.h"
 #include "ui_wdg.h"
 
 int i = 0;
@@ -17,20 +17,18 @@ wdg::~wdg()
     delete ui;
 }
 
-void wdg::on_checkBox_stateChanged(int arg1)
+
+
+
+void wdg::on_radioButton_clicked()
 {
     i++;
    if (i % 2 == 1) {
     ui->Gone->hide();
+
    } else {
       ui->Gone->show();
-   }
 
-
+ }
 }
-
-
-
-
-
 

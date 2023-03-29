@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>858</width>
+    <width>1018</width>
     <height>510</height>
    </rect>
   </property>
@@ -18,15 +18,15 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>190</width>
+     <width>228</width>
      <height>71</height>
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout_3">
     <item row="0" column="0">
-     <widget class="QCheckBox" name="checkBox">
+     <widget class="QRadioButton" name="radioButton">
       <property name="text">
-       <string>Vegan Friendly Receipes </string>
+       <string>Vegetarian Friendly Receipes </string>
       </property>
      </widget>
     </item>
@@ -35,7 +35,7 @@
   <widget class="QPushButton" name="pancake">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>40</x>
      <y>170</y>
      <width>241</width>
      <height>211</height>
@@ -61,7 +61,7 @@ border: rgb(0, 0, 0);
   <widget class="QPushButton" name="Gone">
    <property name="geometry">
     <rect>
-     <x>330</x>
+     <x>340</x>
      <y>170</y>
      <width>231</width>
      <height>211</height>
@@ -83,6 +83,54 @@ border: rgb(0, 0, 0);
     <string>Full Irish</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="waffles">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>170</y>
+     <width>231</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#waffles{
+	
+	font: 700 18pt &quot;Segoe UI&quot;;
+	text-decoration: underline;
+    color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-image: url(:/QTImages/Waffles.jpg);
+background: rgb(0, 0, 0);
+border: rgb(0, 0, 0);
+}</string>
+   </property>
+   <property name="text">
+    <string>Waffles</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="background">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-30</y>
+     <width>1021</width>
+     <height>711</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#background{
+border-image: url(:/QTImages/Background.jpg);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>background</zorder>
+  <zorder>gridLayoutWidget</zorder>
+  <zorder>pancake</zorder>
+  <zorder>Gone</zorder>
+  <zorder>waffles</zorder>
  </widget>
  <resources/>
  <connections/>

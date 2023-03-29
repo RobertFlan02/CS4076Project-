@@ -15,6 +15,11 @@ public:
     explicit Dinner(QWidget *parent = nullptr);
     ~Dinner();
 
+private slots:
+    void on_checkBox_2_stateChanged(int arg1);
+
+    void on_checkBox_stateChanged(int arg1);
+
 private:
     Ui::Dinner *ui;
 };
