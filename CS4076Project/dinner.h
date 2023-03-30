@@ -20,6 +20,10 @@ private slots:
 
     void on_checkBox_stateChanged(int arg1);
 
+    void on_porkchops_clicked();
+
+    void on_pasta_clicked();
+
 private:
     Ui::Dinner *ui;
 };

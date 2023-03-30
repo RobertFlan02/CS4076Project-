@@ -4,6 +4,8 @@
 #include "lunch.h"
 #include "dinner.h"
 
+
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -17,19 +19,7 @@ MainWindow::MainWindow(QWidget *parent)
 
 MainWindow::~MainWindow()
 {
-
     delete ui;
-}
-
-
-
-
-
-void MainWindow::on_Breakfast_clicked()
-{
-    wdg wedigo;
-    wedigo.setModal(true);
-    wedigo.exec();
 }
 
 
@@ -65,4 +55,22 @@ void MainWindow::on_actionOpen_triggered()
 }
 
 
+
+void MainWindow::on_Breakfast_clicked()
+{
+    wdg huh;
+    huh.setModal(true);
+    huh.exec();
+
+}
+
+
+
+void MainWindow::on_Breakfast_pressed()
+{
+    wdg wedigo;
+    wedigo.setModal(true);
+    wedigo.exec();
+
+}
 

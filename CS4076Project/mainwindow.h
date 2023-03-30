@@ -28,6 +28,10 @@ private slots:
 
     void on_actionOpen_triggered();
 
+    void on_verticalSlider_rangeChanged(int min, int max);
+
+    void on_Breakfast_pressed();
+
 private:
     Ui::MainWindow *ui;
 };

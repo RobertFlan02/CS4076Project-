@@ -15,6 +15,8 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     pancake.cpp \
+    pasta.cpp \
+    porkchop.cpp \
     waffles.cpp \
     wdg.cpp
 
@@ -24,6 +26,8 @@ HEADERS += \
     lunch.h \
     mainwindow.h \
     pancake.h \
+    pasta.h \
+    porkchop.h \
     waffles.h \
     wdg.h
 
@@ -33,6 +37,8 @@ FORMS += \
     lunch.ui \
     mainwindow.ui \
     pancake.ui \
+    pasta.ui \
+    porkchop.ui \
     waffles.ui \
     wdg.ui
 
